@@ -1,5 +1,8 @@
 package com.locationfinder.data;
 
+/**
+ * This class is used to hold locations which was received from server
+ */
 public class Location {
 
 	private String name;
@@ -21,6 +24,10 @@ public class Location {
 		this.city = city;
 	}
 
+	/**
+	 * Returns simple representation of taken location to be represented in the locations list.
+	 * @return <tt>String</tt> representing location suitable for list. If no name specified returns empty <tt>String</tt> 
+	 */
 	@Override
 	public String toString() {
 		if (name != null && !"".equals(name.trim())) {

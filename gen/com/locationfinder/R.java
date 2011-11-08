@@ -14,10 +14,11 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int autoFill=0x7f050002;
-        public static final int latitude=0x7f050000;
-        public static final int longitude=0x7f050001;
-        public static final int showLocations=0x7f050003;
+        public static final int autoFill=0x7f050003;
+        public static final int emptyList=0x7f050000;
+        public static final int latitude=0x7f050001;
+        public static final int longitude=0x7f050002;
+        public static final int showLocations=0x7f050004;
     }
     public static final class layout {
         public static final int locations=0x7f030000;
@@ -28,6 +29,7 @@ public final class R {
         public static final int app_name=0x7f040001;
         public static final int auto_fill_location=0x7f040006;
         public static final int hello=0x7f040000;
+        public static final int nothing_found=0x7f040008;
         public static final int put_latitude_here=0x7f040004;
         public static final int put_longitude_here=0x7f040005;
         public static final int show_locations=0x7f040007;
