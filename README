@@ -1,0 +1,1 @@
+This is demo application to show how to use http://buddy.com REST services API on Android-based devices. Basing on current location it makes request to http://m.buddy.com/APIDocumentation/DocHome.aspx?Topic=GeoLocation_Location_CustomSearch and shows first 7 results in the list.
