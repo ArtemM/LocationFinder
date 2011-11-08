@@ -27,7 +27,7 @@ public class LocationsActivity extends ListActivity {
 		String latitude = getIntent().getStringExtra(LATITUDE);
 		String longitude = getIntent().getStringExtra(LONGITUDE);
 
-		List<Location> locations = buddyHelper.getLocations(latitude, longitude, 9);
+		List<Location> locations = buddyHelper.getLocations(latitude, longitude, 7);
 
 		setListAdapter(new ArrayAdapter<Location>(this, android.R.layout.simple_list_item_1, locations));
 	}

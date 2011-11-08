@@ -23,7 +23,14 @@ public class Location {
 
 	@Override
 	public String toString() {
-		return name + " (" + city + ")";
+		if (name != null && !"".equals(name.trim())) {
+			if (city != null && !"".equals(city.trim())) {
+				return name + " (" + city + ")";
+			} else {
+				return name;
+			}
+		}
+		return "";
 	}
 
 }
