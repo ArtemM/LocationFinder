@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="10dp"
+>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/your_location"
+		android:layout_margin="10dp"
+		android:textStyle="bold"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_gravity="left"
+	></TextView>
+	<EditText
+		android:id="@+id/latitude"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:hint="@string/put_latitude_here"
+		android:text=""
+	></EditText>
+	<EditText
+		android:id="@+id/longitude"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:hint="@string/put_longitude_here"
+		android:text=""
+	></EditText>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/action_note"
+		android:layout_margin="15dp"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:gravity="center"
+	></TextView>
+
+	<Button
+		android:id="@+id/autoFill"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/auto_fill_location"
+		android:layout_margin="10dp"
+	></Button>
+	<Button
+		android:id="@+id/showLocations"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/show_locations"
+		android:layout_margin="10dp"
+	></Button>
+</LinearLayout>

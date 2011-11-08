@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, LocationFinderActivity!</string>
+	<string name="app_name">LocationFinder</string>
+
+	<string name="your_location">Your location</string>
+	<string name="action_note">(manually enter you location above, or click below to automatically find your lat/long)</string>
+	
+	<string name="put_latitude_here">Latitude</string>
+	<string name="put_longitude_here">Longitude</string>
+	
+	<string name="auto_fill_location">Auto-Fill Location</string>
+	<string name="show_locations">Show Locations</string>
+</resources>
