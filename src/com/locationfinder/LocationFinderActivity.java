@@ -18,7 +18,6 @@ import android.widget.Toast;
  * recognition at application startup. This location might be used later to be
  * used with "Auto-Fill Location" Starts LocationsActivity and pass latitude and
  * longitude there.
- * 
  */
 public class LocationFinderActivity extends Activity {
 
@@ -53,7 +52,7 @@ public class LocationFinderActivity extends Activity {
 					// Otherwise we showing Toast to notify user that we still did not get any location information.
 					// In this case user may try to press "Auto-Fill Location" button later. 
 					// It is possible that GPS coordinates will be already taken  at that moment.
-					Toast.makeText(LocationFinderActivity.this, "Unable to get location pls try later",
+					Toast.makeText(LocationFinderActivity.this, "Unable to get location, please try later",
 							Toast.LENGTH_SHORT).show();
 				}
 			}

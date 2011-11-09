@@ -25,8 +25,11 @@ public class Location {
 	}
 
 	/**
-	 * Returns simple representation of taken location to be represented in the locations list.
-	 * @return <tt>String</tt> representing location suitable for list. If no name specified returns empty <tt>String</tt> 
+	 * Returns simple representation of taken location to be represented in the
+	 * locations list.
+	 * 
+	 * @return <tt>String</tt> representing location suitable for list. If no
+	 *         name specified returns empty <tt>String</tt>
 	 */
 	@Override
 	public String toString() {

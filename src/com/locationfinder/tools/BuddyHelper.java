@@ -29,9 +29,7 @@ import android.util.Log;
 import com.locationfinder.data.Location;
 
 /**
- * 
  * Class which provides access to buddy.com services.
- * 
  */
 public class BuddyHelper {
 
@@ -94,14 +92,12 @@ public class BuddyHelper {
 			return result;
 		}
 
-		// Preparing parameters according to  http://m.buddy.com/APIDocumentation/DocHome.aspx?Topic=GeoLocation_Location_CustomSearch
+		// Preparing parameters according to http://m.buddy.com/APIDocumentation/DocHome.aspx?Topic=GeoLocation_Location_CustomSearch
 		List<NameValuePair> params = new LinkedList<NameValuePair>();
 		params.add(new BasicNameValuePair("BuddyApplicationName", "LocationFInder"));
 		params.add(new BasicNameValuePair("BuddyApplicationPassword", "738EF0E0-82A0-48EE-B5A6-022F163E574B"));
 		params.add(new BasicNameValuePair("UserToken", "UT-2bac14d1-4176-4f8a-be70-51104653f8a4"));
-		params.add(new BasicNameValuePair("SearchDistance", "1000000")); // Distance
-																			// in
-																			// METERS
+		params.add(new BasicNameValuePair("SearchDistance", "1000000")); // Distance in METERS
 		params.add(new BasicNameValuePair("Latitude", latitude));
 		params.add(new BasicNameValuePair("Longitude", longitude));
 		params.add(new BasicNameValuePair("RecordLimit", String.valueOf(limit)));
@@ -111,8 +107,7 @@ public class BuddyHelper {
 		String paramString = URLEncodedUtils.format(params, "utf-8");
 
 		HttpClient client = new DefaultHttpClient();
-		// Can't pass empty parameters without "=" so adding this directly to
-		// the request string
+		// Can't pass empty parameters without "=" so adding this directly to the request string
 		HttpGet httpGet = new HttpGet(getEndpointUrl() + "?GeoLocation_Location_Search&" + paramString);
 
 		HttpResponse response = null;

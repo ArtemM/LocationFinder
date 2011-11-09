@@ -21,6 +21,9 @@
 		android:layout_height="wrap_content"
 		android:hint="@string/put_latitude_here"
 		android:text=""
+		android:maxLines="1"
+		android:lines="1"
+		android:inputType="numberDecimal"
 	></EditText>
 	<EditText
 		android:id="@+id/longitude"
@@ -28,6 +31,9 @@
 		android:layout_height="wrap_content"
 		android:hint="@string/put_longitude_here"
 		android:text=""
+		android:maxLines="1"
+		android:lines="1"
+		android:inputType="numberDecimal"
 	></EditText>
 	<TextView
 		android:layout_width="fill_parent"
