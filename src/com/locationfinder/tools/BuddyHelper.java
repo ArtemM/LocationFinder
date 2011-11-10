@@ -97,7 +97,7 @@ public class BuddyHelper {
 		params.add(new BasicNameValuePair("BuddyApplicationName", "LocationFInder"));
 		params.add(new BasicNameValuePair("BuddyApplicationPassword", "738EF0E0-82A0-48EE-B5A6-022F163E574B"));
 		params.add(new BasicNameValuePair("UserToken", "UT-2bac14d1-4176-4f8a-be70-51104653f8a4"));
-		params.add(new BasicNameValuePair("SearchDistance", "1000000")); // Distance in METERS
+		params.add(new BasicNameValuePair("SearchDistance", "100000")); // Distance in METERS
 		params.add(new BasicNameValuePair("Latitude", latitude));
 		params.add(new BasicNameValuePair("Longitude", longitude));
 		params.add(new BasicNameValuePair("RecordLimit", String.valueOf(limit)));

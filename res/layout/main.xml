@@ -22,8 +22,7 @@
 		android:hint="@string/put_latitude_here"
 		android:maxLines="1"
 		android:lines="1"
-		android:inputType="numberDecimal"
-		android:numeric="signed|decimal"
+		android:inputType="numberSigned|numberDecimal"
 	></EditText>
 	<EditText
 		android:id="@+id/longitude"
@@ -32,7 +31,7 @@
 		android:hint="@string/put_longitude_here"
 		android:maxLines="1"
 		android:lines="1"
-		android:numeric="signed|decimal"
+		android:inputType="numberSigned|numberDecimal"
 	></EditText>
 	<TextView
 		android:layout_width="fill_parent"
