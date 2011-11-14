@@ -1,4 +1,4 @@
-package com.locationfinder.data;
+package com.buddy.data;
 
 /**
  * This class is used to hold locations which was received from server

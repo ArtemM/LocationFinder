@@ -1,4 +1,4 @@
-package com.locationfinder;
+package com.buddy;
 
 import android.app.Activity;
 import android.content.Context;

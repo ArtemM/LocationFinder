@@ -1,4 +1,4 @@
-package com.locationfinder.tools;
+package com.buddy.tools;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -26,7 +26,7 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.util.Log;
 
-import com.locationfinder.data.Location;
+import com.buddy.data.Location;
 
 /**
  * Class which provides access to buddy.com services.
@@ -94,9 +94,9 @@ public class BuddyHelper {
 
 		// Preparing parameters according to http://m.buddy.com/APIDocumentation/DocHome.aspx?Topic=GeoLocation_Location_CustomSearch
 		List<NameValuePair> params = new LinkedList<NameValuePair>();
-		params.add(new BasicNameValuePair("BuddyApplicationName", "LocationFInder"));
-		params.add(new BasicNameValuePair("BuddyApplicationPassword", "738EF0E0-82A0-48EE-B5A6-022F163E574B"));
-		params.add(new BasicNameValuePair("UserToken", "UT-2bac14d1-4176-4f8a-be70-51104653f8a4"));
+		params.add(new BasicNameValuePair("BuddyApplicationName", "SampleCode"));
+		params.add(new BasicNameValuePair("BuddyApplicationPassword", "C804632D-1F2B-4F99-87AA-4914FE2218E9"));
+		params.add(new BasicNameValuePair("UserToken", "UT-9fda43f2-9691-43fb-b482-3912a08c06bd"));
 		params.add(new BasicNameValuePair("SearchDistance", "100000")); // Distance in METERS
 		params.add(new BasicNameValuePair("Latitude", latitude));
 		params.add(new BasicNameValuePair("Longitude", longitude));

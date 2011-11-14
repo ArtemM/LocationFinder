@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	package="com.locationfinder"
+	package="com.buddy"
 	android:versionCode="1"
 	android:versionName="1.0"
 >
@@ -24,7 +24,7 @@
 			</intent-filter>
 		</activity>
 
-		<activity android:name=".LocationsActivity"></activity>
+		<activity android:name="com.buddy.LocationsActivity"></activity>
 
 	</application>
 </manifest>

@@ -1,13 +1,13 @@
-package com.locationfinder;
+package com.buddy;
 
 import java.util.List;
-
-import com.locationfinder.data.Location;
-import com.locationfinder.tools.BuddyHelper;
 
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+
+import com.buddy.data.Location;
+import com.buddy.tools.BuddyHelper;
 
 /**
  * Activity which will be started when user will press "Show Locations" button.
